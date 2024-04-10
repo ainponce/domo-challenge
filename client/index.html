@@ -5,22 +5,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Prueba técnica</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" type="image/png" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
 
 <body>
     <main>
-        <section>
+        <section class="container">
+            <div class="contenedor">
+                <img src="./assets/images/logo-domo.svg" alt="logo-domo" class="imagen-centrada">
+            </div>
             <h1>Challenge</h1>
-            <h2>Full Stack</h2>
         </section>
-        <section>
-            <input type="text" name="dni" placeholder="DNI">
-            <input type="text" name="apellido" placeholder="Apellido">
-            <input type="button" value="Agregar">
+        <section class="container mt-4">
+            <input type="text" class="form-control mb-2" name="dni" placeholder="DNI">
+            <input type="text" class="form-control mb-2" name="apellido" placeholder="Apellido">
+            <input type="button" class="btn btn-dark" value="Agregar">
         </section>
     </main>
 
     <script src="js/fetchData.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 
 </html>

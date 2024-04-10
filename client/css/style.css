@@ -1,0 +1,22 @@
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center; 
+    align-items: center;     
+    height: 300px;           
+}
+
+.imagen-centrada {
+    max-width: 100%; 
+    max-height: 100%;
+}
